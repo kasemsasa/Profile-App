@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "highScore": {
+      "type": "integer"
+    },
+    "additionalProperties": {
+      "type": "object",
+      "properties": {
+        "color": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "movie": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "song": {
+          "type": "string"
+        }
+      },
+      "required": ["color", "image", "movie", "name", "song"],
+      "additionalProperties": false
+    }
+  },
+  "required": ["highScore"]
+}
