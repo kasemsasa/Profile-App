@@ -62,13 +62,13 @@
             "properties": {
                 "Picture": "kasem gram.png",
                 "resizeMode": "stretch",
-                "Height": 123,
-                "Width": 123,
+                "Height": 80,
+                "Width": 80,
                 "Visible": true,
-                "X": 252,
-                "Y": 0,
-                "RelativeX": 252,
-                "RelativeY": 0,
+                "X": 295,
+                "Y": 36,
+                "RelativeX": 295,
+                "RelativeY": 36,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -95,7 +95,7 @@
                 "capInsets": {},
                 "ParentId": "c863a6e7-70cd-4a0f-9aa4-5265dafefd5b",
                 "position": "absolute",
-                "edgeOffsets": 0
+                "edgeOffsets": 36
             },
             "children": [],
             "id": "6912ce7b-5e14-4e21-9941-240205e57791",
@@ -813,6 +813,36 @@
             "id": "1c06b4d0-e6e2-4150-8264-47e071928a34",
             "thunkableVersion": 443,
             "name": "Label1"
+        },
+        {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-1741480551262126/3547224078",
+                "AdUnitID_iOS": "",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "c863a6e7-70cd-4a0f-9aa4-5265dafefd5b",
+                "Y": 0,
+                "RelativeX": 0,
+                "RelativeY": 0,
+                "position": "absolute",
+                "edgeOffsets": 0,
+                "style": {
+                    "position": "absolute",
+                    "left": "10.8%",
+                    "top": "7.496251874062969%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "83c7b7df-dcc3-4267-9a2a-0429c2a03703",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner1"
         }
     ],
     "id": "c863a6e7-70cd-4a0f-9aa4-5265dafefd5b",
